@@ -1,2 +1,36 @@
 /* Denna fil skall innehålla din CSS kod */
 
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'as sec1 sec1 sec1'
+    'as sec2 sec2 sec2'
+    'ft ft ft ft';
+    margin: auto;
+
+
+}
+
+header {
+    grid-area: hd;
+    background-color: aliceblue;
+}
+
+nav {
+    grid-area: nv;
+}
+
+#sec1 {
+    grid-area: sec1;
+}
+
+#sec2 {
+    grid-area: sec2;
+}
+
+footer {
+    grid-area: ft;
+}
