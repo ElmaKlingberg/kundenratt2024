@@ -18,6 +18,8 @@ header {
     grid-area: hd;
     background-color: #f39c12;
     height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -35,14 +37,15 @@ nav {
 #sec1 {
     grid-area: sec1;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
    
 }
 
 #sec2 {
     grid-area: sec2;
     display: flex;
-    justify-content: right;
+    justify-content: flex-start;
+    
     
 }
 
