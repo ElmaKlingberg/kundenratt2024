@@ -16,7 +16,7 @@
 
 header {
     grid-area: hd;
-    background-color: aliceblue;
+    background-color: #f39c12;
 }
 
 nav {
@@ -33,4 +33,8 @@ nav {
 
 footer {
     grid-area: ft;
+}
+
+img {
+    width: 40%;
 }
