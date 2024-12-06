@@ -17,24 +17,46 @@
 header {
     grid-area: hd;
     background-color: #f39c12;
+    height: 100px;
 }
 
 nav {
     grid-area: nv;
 }
 
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 380px;
+    background-color: rgb(151, 204, 245);
+    height: 50px;
+}
+
 #sec1 {
     grid-area: sec1;
+    display: flex;
+    justify-content: left;
+   
 }
 
 #sec2 {
     grid-area: sec2;
+    display: flex;
+    justify-content: right;
+    
 }
 
 footer {
     grid-area: ft;
+    background-color: #f39c12;
+    height: 70px;
 }
 
 img {
     width: 40%;
+   
+}
+
+a{
+    color: black;
 }
