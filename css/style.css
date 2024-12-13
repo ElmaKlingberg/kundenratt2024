@@ -20,6 +20,8 @@ header {
     background-color: #f39c12;
     display: flex;
     justify-content: center;
+    font-size: 400%;
+    padding-top: 30px;
 }
 
 nav {
@@ -30,6 +32,8 @@ nav {
     display: flex;
     justify-content: flex-end;
     background-color: rgb(255, 247, 163);
+    height: 40px;
+    padding-top: 20px;
 }
 
 .nav div {
@@ -58,10 +62,11 @@ nav {
 footer {
     grid-area: ft;
     background-color: #f39c12;
+    margin-top: 40px;
 }
 
 img {
-    width: 40%;
+    width: 70%;
    
 }
 
