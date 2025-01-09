@@ -31,7 +31,7 @@ nav {
 .nav {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(255, 247, 163);
+    background-color: rgb(255, 240, 186);
     height: 40px;
     padding-top: 20px;
 }
