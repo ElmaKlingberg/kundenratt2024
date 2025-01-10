@@ -44,6 +44,9 @@ nav {
     grid-area: sec1;
     display: flex;
     justify-content: center;
+    color: white;
+    font-size: 25px;
+    
     
     
    
@@ -53,6 +56,8 @@ nav {
     grid-area: sec2;
     display: flex;
     justify-content: center;
+    color: white;
+    font-size: 25px;
     
 
     
@@ -62,8 +67,25 @@ nav {
 footer {
     grid-area: ft;
     background-color: #f39c12;
-    margin-top: 40px;
+    margin-top: 40px; 
+    
 }
+
+#ft1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#ft2 {
+    display: flex;
+    justify-content: center;
+}
+
+#ft3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 img {
     width: 70%;
@@ -73,3 +95,4 @@ img {
 a{
     color: black;
 }
+
