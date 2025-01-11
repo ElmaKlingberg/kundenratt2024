@@ -138,4 +138,57 @@ nav {
 }
 
 .nav div {
-    margin-right: 16%; }
+    margin-right: 16%; 
+}
+
+#cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin: auto;
+    justify-content: center;
+}
+
+section {
+    border: 2px solid #f39c12;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    box-shadow: 2px 2px 2px #f39c12;
+
+}
+
+section:hover {
+    height: 410px;
+    width: 310px;
+}
+
+section:hover p {
+    display: none;
+}
+
+#cardWrapper section p {
+    font-size:2em ;
+    text-shadow: 0px 0px 5px gray;
+
+}
+
+#s1 {
+    background-image:url('../img/semsterbild.jpg');
+
+}
+
+#s2 {
+    background-image: url('../img/skidsemesterbild.jpg');
+
+}
+
+#s3 {
+    background-image: url('../img/städerbild.jpg');
+
+}
+
