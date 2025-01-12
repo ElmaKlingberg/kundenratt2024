@@ -32,7 +32,7 @@ nav {
 .nav {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(255, 240, 186);
+    background-color: #fff0ba;
     height: 40px;
     padding-top: 20px;
 }
@@ -45,7 +45,7 @@ nav {
     grid-area: sec1;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     text-align: center;
     font-size: 2em;
@@ -58,7 +58,7 @@ nav {
     grid-area: sec2;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     text-align: center;
     font-size: 2em;
@@ -182,7 +182,7 @@ section:hover p {
 
 #cardWrapper section p {
     font-size:2em ;
-    text-shadow: 0px 0px 5px gray;
+    text-shadow: 0px 0px 5px black;
 
 }
 
