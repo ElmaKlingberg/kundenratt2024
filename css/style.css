@@ -47,6 +47,8 @@ nav {
     justify-content: center;
     color: white;
     font-size: 25px;
+    text-align: center;
+    font-size: 2em;
     
     
    
@@ -58,6 +60,8 @@ nav {
     justify-content: center;
     color: white;
     font-size: 25px;
+    text-align: center;
+    font-size: 2em;
 
     
     
@@ -149,7 +153,7 @@ nav {
     justify-content: center;
 }
 
-section {
+#cardWrapper section {
     border: 2px solid #f39c12;
     width: 300px;
     height: 400px;
@@ -162,7 +166,7 @@ section {
 
 }
 
-section:hover {
+#cardWrapper section:hover {
     height: 410px;
     width: 310px;
 }
@@ -191,4 +195,42 @@ section:hover p {
     background-image: url('../img/städerbild.jpg');
 
 }
+
+#container3 {
+    display: grid;
+    height: 680px;
+    width: 100%;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'sec1 sec1 sec2 sec2'
+    'sec1 sec1 sec2 sec2'
+}
+
+
+
+h1 {
+    border: 5px solid #f39c12;
+    height: 350px;
+    width: 350px;
+    background-color: #f39c12;
+    text-align: center;
+    font-size: 40px;
+    
+    
+    
+}
+
+
+
+#section2 {
+    border: 5px solid #f39c12;
+    height: 350px;
+    width: 900px;
+    background-image:url('../img/jämförapris.png');
+    background-size: cover;
+    
+}
+
+
 
