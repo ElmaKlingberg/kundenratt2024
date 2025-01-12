@@ -109,6 +109,11 @@ a{
     color: black;
 }
 
+#logga {
+    height: 65px;
+    width: 65px;
+}
+
 #container2 {
     display: grid;
     height: 680px;
@@ -196,6 +201,11 @@ section:hover p {
 
 }
 
+#logga {
+    height: 65px;
+    width: 65px;
+}
+
 #container3 {
     display: grid;
     height: 680px;
@@ -205,6 +215,11 @@ section:hover p {
     'nv nv nv nv'
     'sec1 sec1 sec2 sec2'
     'sec1 sec1 sec2 sec2'
+}
+
+#logga {
+    height: 65px;
+    width: 65px;
 }
 
 
